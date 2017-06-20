@@ -17,5 +17,13 @@ Installation
 The easiest way is to use CocoaPods. It takes care of all required frameworks and third party dependencies:
 
 ```
-pod 'orion360-sdk-pro-ios', :git 'https://github.com/FinweLtd/orion360-sdk-pro-ios.git'
+source 'https://github.com/FinweLtd/orion360-sdk-pro-ios-specs.git'
+
+platform :ios, "8.0"
+workspace 'myworkspace'
+
+target "mytarget" do
+    # Third party libs
+    pod 'orion360-sdk-pro-ios'
+end
 ```
