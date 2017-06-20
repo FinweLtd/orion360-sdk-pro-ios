@@ -1,6 +1,6 @@
 //
 //  OrionLicenseValidator.h
-//  licencetest
+//  orion360-sdk-pro-ios
 //
 //  Created by Hannu Limma on 04.06.2014.
 //  Copyright (c) 2014 Finwe Ltd. All rights reserved.

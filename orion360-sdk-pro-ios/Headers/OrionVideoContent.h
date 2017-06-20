@@ -1,13 +1,13 @@
 //
 //  OrionVideoContent.h
-//  FinweComponents
+//  orion360-sdk-pro-ios
 //
 //  Created by Hannu Limma on 02.10.2014.
 //  Copyright (c) 2014 Finwe Ltd. All rights reserved.
 //
 
 #import <AVFoundation/AVFoundation.h>
-#import <FinweComponents/OrionContent.h>
+#import <orion360-sdk-pro-ios/OrionContent.h>
 
 @class OrionVideoContent;
 

@@ -1,6 +1,6 @@
 //
 //  OrionViewRotation.h
-//  FinweComponents
+//  orion360-sdk-pro-ios
 //
 //  Created by Petri Määttä on 02/10/14.
 //  Copyright (c) 2014 Finwe Ltd. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  OrionViewportItemTimestamp.h
-//  FinweComponents
+//  orion360-sdk-pro-ios
 //
 //  Created by Hannu Limma on 13.03.2015.
 //  Copyright (c) 2015 Finwe Ltd. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <FinweComponents/OrionViewRotation.h>
+#import <orion360-sdk-pro-ios/OrionViewRotation.h>
 
 /**
  *  Class OrionViewportItemTimeStamp
