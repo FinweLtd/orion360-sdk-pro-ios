@@ -169,4 +169,15 @@
 - (void)seekTo:(CGFloat)seekToTime;
 - (void)seekExactlyTo:(CGFloat)seekToTime;
 
+/**
+ *  Returns weak reference to AVPlayer.
+ *  This method returns a valid player reference after video content is ready to play.
+ *
+ *  Note that using AVPlayer via this reference bypasses the sdk which might get out-of-sync or cause any other unexpected behaviour.
+ *
+ *  @param index player index, like playerIndex to get current AVPlayer, based on content uriArray elements
+ *  @return weak reference to AVPlayer, otherwise nil
+ */
+- (AVPlayer *__weak)getAVPlayer:(NSUInteger)index;
+
 @end

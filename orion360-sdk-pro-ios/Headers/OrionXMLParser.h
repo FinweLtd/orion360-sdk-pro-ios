@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <orion360-sdk-pro-ios/OrionViewportItem.h>
 
-//@class OrionScene;
 typedef void (^OrionXMLParserSceneHotspotHandler)(OrionViewportItem *item);
 
 @interface OrionXMLParser : NSObject

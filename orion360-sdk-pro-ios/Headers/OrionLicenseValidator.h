@@ -3,6 +3,7 @@
 //  orion360-sdk-pro-ios
 //
 //  Created by Hannu Limma on 04.06.2014.
+//  Modified by Esko Malm on 07.09.2022.
 //  Copyright (c) 2014 Finwe Ltd. All rights reserved.
 //
 
@@ -13,14 +14,13 @@
     
 }
 
-- (BOOL)checkLicenseValidity:(NSURL*)licenseFileUrl bundleNameKey:(NSString*)bundleNameKey;
+- (BOOL)checkLicenseValidity:(NSURL*)licenseFileUrl;
+- (BOOL)isSourceURIAllowed:(NSString*)uri;
 - (NSString*)getLogo;
 - (BOOL)featureEnabled:(NSString*)feature;
 - (BOOL)checkPlatformValidity;
 - (BOOL)checkVersionNumberValidity:(NSString*)version;
 - (BOOL)checkKeyAvailable:(NSString*)key;
 - (BOOL)checkValidity:(NSString*)key value:(NSString*)value;
-
-@property (nonatomic) NSMutableDictionary* parameters;
 
 @end

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Finwe Ltd. All rights reserved.
 //
 
-#ifndef FinweComponents_OrionResources_h
-#define FinweComponents_OrionResources_h
+#ifndef Orion360SDKProiOS_OrionResources_h
+#define Orion360SDKProiOS_OrionResources_h
 
 
 /**
