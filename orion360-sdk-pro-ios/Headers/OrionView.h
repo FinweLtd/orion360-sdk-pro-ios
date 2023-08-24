@@ -82,6 +82,7 @@
  *  @param orionContent Orion content to be added
  */
 -(void)addOrionContent:(OrionContent*)orionContent;
+-(void)addOrionContent:(OrionContent*)orionContent avPlayer:(AVPlayer*)avPlayer;
 
 /**
  *  Adds OrionViewport with certain OrionContent to OrionView.
