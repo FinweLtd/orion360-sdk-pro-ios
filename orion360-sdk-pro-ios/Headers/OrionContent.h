@@ -114,7 +114,7 @@
 /**
  *  Tells the delegate that original content failed to become ready for Orion
  *
- *  @param OrionContent      Orion content
+ *  @param orionContent      Orion content
  *  @param content           original content from UI
  */
 - (void)orionContentDidFailToBecomeReady:(OrionContent*)orionContent content:(id)content;

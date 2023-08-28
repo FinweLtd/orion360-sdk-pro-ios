@@ -8,7 +8,10 @@ This is a binary delivery of the Orion360 Engine for iOS and tvOS.
 
 What's new
 -------
-Build 2.2.49, Aug 24, 2023:
+Build 2.2.50, Aug 25, 2023:
+* Supports also Xcode 13, otherwise the same as version 2.2.49
+
+Build 2.2.49, Aug 24, 2023 (requires at least Xcode 14):
 * Added alternative addOrionContent function with avPlayer parameter to OrionView for cases where the AVPlayer needs to be created by the app
 * min iOS and tvOS platform versions changed to 11.0
 
