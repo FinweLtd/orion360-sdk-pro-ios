@@ -8,6 +8,9 @@ This is a binary delivery of the Orion360 Engine for iOS and tvOS.
 
 What's new
 -------
+Build 2.2.51, Mar 15, 2024:
+* Updated OpenSSL for iOS
+
 Build 2.2.50, Aug 25, 2023:
 * Supports also Xcode 13, otherwise the same as version 2.2.49
 

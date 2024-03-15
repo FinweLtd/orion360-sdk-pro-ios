@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
   s.name = 'orion360-sdk-pro-ios'
-  s.version = '2.2.50'
+  s.version = '2.2.51'
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
-      Copyright 2017-2023 Finwe Ltd, Inc. All rights reserved.
+      Copyright 2017-2024 Finwe Ltd, Inc. All rights reserved.
       LICENSE
   }
   s.summary = 'Orion360 Engine for iOS and tvos, second generation (v2.x).'
   s.homepage = 'https://github.com/FinweLtd/orion360-sdk-pro-ios'
-  s.author = { 'Esko Malm' => 'esko.malm@finwe.fi' }
+  s.author = { 'Tapani Jämsä' => 'tapani.jamsa@finwe.fi' }
   s.platforms = { :ios => "11.0", :tvos => "11.0" }
   s.source = { :git => 'https://github.com/FinweLtd/orion360-sdk-pro-ios.git', :tag => "#{s.version}" }
   s.source_files = 'orion360-sdk-pro-ios/Headers/*.h'
