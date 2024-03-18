@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'orion360-sdk-pro-ios'
-  s.version = '2.2.51'
+  s.version = '2.2.52'
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
